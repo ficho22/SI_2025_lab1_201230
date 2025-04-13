@@ -1,0 +1,75 @@
+git fetch origin
+git checkout 1-remove-a-task-by-name
+
+git fetch origin
+git checkout 5-filter-tasks-by-category
+
+git fetch origin
+git checkout 6-find-the-highest-priority-unfinished-task
+
+mkdir SI_2025_lab1_201230  креирање на директориум
+
+cd SI_2025_lab1_201230 влез во истиот директориум
+
+C:\Users\Filip\SI_2025_lab1_201230>git init
+Initialized empty Git repository in C:/Users/Filip/SI_2025_lab1_201230/.git/  иницијализација на гит
+
+C:\Users\Filip\SI_2025_lab1_201230>git remote add origin https://github.com/ficho22/SI_2025_lab1_201230.git
+
+C:\Users\Filip\SI_2025_lab1_201230>echo "Име: Филип  Презиме: Скендеров  Број на индекс: 201230" >> README.md
+
+C:\Users\Filip\SI_2025_lab1_201230>git add README.md
+
+C:\Users\Filip\SI_2025_lab1_201230>git commit -m "initial commit"  прв commit
+
+C:\Users\Filip\SI_2025_lab1_201230>git add SI2025Lab1Main.java
+
+C:\Users\Filip\SI_2025_lab1_201230>git branch -M master
+
+C:\Users\Filip\SI_2025_lab1_201230>git push -u origin master
+
+C:\Users\Filip\SI_2025_lab1_201230>git add SI2025Lab1Main.java
+
+C:\Users\Filip\SI_2025_lab1_201230>git commit -m "Add starteer code"
+
+C:\Users\Filip\SI_2025_lab1_201230>git push -u origin master
+
+C:\Users\Filip\SI_2025_lab1_201230>git fetch origin
+From https://github.com/ficho22/SI_2025_lab1_201230
+ * [new branch]      1-remove-a-task-by-name -> origin/1-remove-a-task-by-name
+ * [new branch]      5-filter-tasks-by-category -> origin/5-filter-tasks-by-category
+ * [new branch]      6-find-the-highest-priority-unfinished-task -> origin/6-find-the-highest-priority-unfinished-task
+
+C:\Users\Filip\SI_2025_lab1_201230>git checkout 1-remove-a-task-by-name
+branch '1-remove-a-task-by-name' set up to track 'origin/1-remove-a-task-by-name'.
+Switched to a new branch '1-remove-a-task-by-name'
+
+C:\Users\Filip\SI_2025_lab1_201230>git add .
+
+C:\Users\Filip\SI_2025_lab1_201230>git commit -m "implementation1"
+On branch 1-remove-a-task-by-name
+Your branch is up to date with 'origin/1-remove-a-task-by-name'.
+
+nothing to commit, working tree clean
+
+
+C:\Users\Filip\SI_2025_lab1_201230>git checkout 5-filter-tasks-by-category
+
+C:\Users\Filip\SI_2025_lab1_201230>git add .
+
+C:\Users\Filip\SI_2025_lab1_201230>git push 5-filter-tasks-by-category
+
+C:\Users\Filip\SI_2025_lab1_201230>git checkout 6-find-the-highest-priority-unfinished-task
+
+C:\Users\Filip\SI_2025_lab1_201230>git add .
+
+C:\Users\Filip\SI_2025_lab1_201230>git commit -m "implementation3"
+
+C:\Users\Filip\SI_2025_lab1_201230>git push origin 6-find-the-highest-priority-unfinished-task
+
+C:\Users\Filip\SI_2025_lab1_201230>git checkout master
+
+
+
+
+
